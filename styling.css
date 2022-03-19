@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #141519;
+    
+}
+
+   
+.container {
+    display: flex;
+    position: relative;
+    margin-top: 150px;
+    margin-right: 300px;
+}
+
+.body {
+  position: absolute;
+    width: 350px;
+    height: 350px;
+ 
+border-radius: 20px;
+}
+.first {
+
+    z-index: 20;
+    background-color: #212832;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.img {
+ width: 40px;
+ height: 40px;
+ border: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ background-color: #141519;
+ margin: 20px 0px 0px 20px;
+}
+.img > img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.text1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text1 > h1 {
+    color: white;
+}
+.text1 > p {
+    color: #7b8490;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px 0px 10px;
+}
+
+.btns > button {
+    color: #7b8490;
+    background-color: #141519;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.btns > button:hover {
+    background-color: #f67828;
+    color: white;
+}
+.btns > button:focus {
+background-color: #f67828;
+color: white;
+
+
+}
+.submit {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    background-color: #f67828;
+    font-style: italic;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+}
+
+.second {
+   
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+    background-color: #212832;
+    justify-content: center;
+   
+
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+ 
+}
+.number {
+    display: flex;
+  
+    border-radius: 20px;
+    background-color: #141519;
+    color: #f67828;
+   
+
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.number > span {
+    color: white;
+}
+
+.text2 {
+
+    color: white;
+}
+
+.hehe {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ 
+}
+.hoho {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
